@@ -1,0 +1,30 @@
+.eye-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .eye {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 10px;
+  }
+  
+  .iris {
+    width: 69px;
+    height: 69px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    text-align: center;
+  }
